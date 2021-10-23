@@ -6,15 +6,9 @@ import Loading from "./Loading";
 
 const Personajes = () => {
   const pathUrl = "https://xmenapiheroku.herokuapp.com/api/characters";
-  // const userConfig = {
-  //   id: "123456789",
-  //   nombre: "Juan",
-  //   email: "juandiego07@gmail.com",
-  //   role: "admin",
-  // };
 
   const [ListaPersonajes, setListaPersonajes] = useState([]);
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   // --------------------- Petición con XML Http Request ----------------------------------------------
   //   const cargarPersonajes = () => {
